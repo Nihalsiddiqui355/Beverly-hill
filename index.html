@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>Beverly Hills Karjat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="content/cottage2/images/favicon.png" type="image/x-icon">
+    <!-- FONTS -->
+    <link rel='stylesheet'
+        href='https://fonts.googleapis.com/css?family=Alegreya:100,200,300,400,400italic,500,600,700,700italic,900'>
+    <link rel='stylesheet'
+        href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,400italic,500,600,700,700italic,900'>
+
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- custom css -->
+     <link rel="stylesheet" href="./css/custm.css">
+
+
+</head>
+
+<body
+    class="grid grid-rows-[200px_minmax(900px,_1fr)_100px]">
+
+    <div class="fixed bottom-8 right-8 z-50 bg-[red]">
+        <a href="tel:+91 8080067067"
+            class="bg-orange-700 hover:bg-orange-600 text-white p-4 rounded-full flex items-center justify-center shadow-lg transition-opacity">
+            <i class="fa-solid fa-phone text-2xl"></i>
+        </a>
+    </div>
+
+    <!-- Header Section -->
+    <div id="Header_creative" class="relative bg-white shadow-lg">
+        <!-- Menu Toggle Button (for small screens) -->
+        <a href="#" class="block lg:hidden text-gray-800 p-4">
+            <i class="icon-menu-fine text-2xl"></i>
+        </a>
+
+        <div class="creative-wrapper">
+            <!-- Top Bar -->
+            <div id="Top_bar" class="flex justify-between items-center p-4">
+                <div class="top_bar_left flex items-center">
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a id="logo" href="index-2.html" class="block">
+                            <img src="content/cottage2/images/beverlyhills.png" alt="Beverly Hills Logo"
+                                class="w-36 h-auto">
+                        </a>
+                    </div>
+
+                    <!-- Navigation Menu -->
+                    <div class="menu_wrapper ml-8 hidden lg:block">
+                        <nav id="menu" class="flex space-x-8 text-lg font-medium text-gray-800">
+                            <a href="#" class="hover:text-green-600">Home</a>
+                            <a href="content/cottage2/contact.html" class="hover:text-green-600">Contact</a>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- Right Section (RERA and Contact Info) -->
+                <div class="hidden lg:block text-center absolute left-1/2 transform -translate-x-1/2">
+                    <a href="#" class="block text-orange-400 hover:text-orange-600 font-semibold mb-4">
+                        Request Brochure
+                    </a>
+                    <p class="mt-4 border-dashed border-2 border-brown-800 rounded-lg p-2">
+                        Maha Rera No<br>
+                        <span class="text-orange-600">P52000076952</span>
+                    </p>
+                    <p class="mt-4 border-dashed border-2 border-brown-800 rounded-lg p-2">
+                        Contact Number<br>
+                        <a href="tel:+91 8080067067" class="text-orange-600 hover:underline">+91 8080067067</a>
+                    </p>
+                </div>
+
+                <!-- Responsive Menu Toggle -->
+                <div class="lg:hidden">
+                    <a href="#" class="text-gray-800 p-4">
+                        <i class="icon-menu-fine text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Action Bar (If needed) -->
+        <div id="Action_bar" class="creative hidden lg:block">
+            <!-- Any content you need for action bar goes here -->
+        </div>
+    </div>
+
+
+    <!-- Header Wrapper -->
+    <div id="Header_wrapper">
+        <header id="Header" class="relative">
+            <!-- Slider Section -->
+            <div class="relative">
+                <img src="content/cottage2/images/cottage2-slider-bg.webp" alt="Slider Background"
+                    class="w-full h-auto">
+                <div class="absolute inset-0 flex flex-col items-center justify-center text-center">
+                    <h1 class="text-white text-4xl lg:text-6xl font-bold mb-2">Beverly Hills Karjat</h1>
+                    <p class="text-white text-xl lg:text-2xl font-medium">Your Gateway to Nature's Luxury</p>
+                </div>
+            </div>
+
+            <!-- Additional Text Layer -->
+            <div class="absolute inset-0 flex flex-col items-center justify-center text-center mt-64">
+                <h2 class="text-white text-lg lg:text-xl font-semibold">Experience Serenity, Elegance, and Comfort in
+                    the Heart of Nature</h2>
+            </div>
+
+            <!-- Explore More Link -->
+            <div class="absolute bottom-20 left-1/2 transform -translate-x-1/2 text-center">
+                <a href="#" class="bg-orange-400 hover:bg-orange-300 text-white font-semibold py-2 px-4 rounded">
+                    EXPLORE MORE
+                </a>
+            </div>
+
+            <!-- Icon Layer -->
+            <div class="absolute bottom-32 left-1/2 transform -translate-x-1/2 text-center">
+                <img src="content/cottage2/images/cottage2-icon1.png" alt="Icon" class="w-20 h-20">
+            </div>
+        </header>
+
+        <div id="Content" class="mt-[-4px]">
+            <!-- Discover Beverly Hills Section -->
+            <div class="section bg-[#314d3e] py-20">
+                <div class="max-w-screen-xl mx-auto px-4">
+                    <div class="flex justify-center text-center mt-[-10px]">
+                        <div class="w-full md:w-7/12">
+                            <h6 class="text-white text-lg font-semibold mb-2">Discover Beverly Hills</h6>
+                            <h2 class="text-[#fcf3e4] text-3xl font-bold">Breathe, Celebrate & Explore</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section bg-[#314d3e] pt-24 pb-30 bg-cover bg-no-repeat"
+                style="background-image: url('content/cottage2/images/cottage2-section-bg1.jpg');">
+                <div class="max-w-screen-xl mx-auto px-4">
+                    <!-- Discover Karjat Section -->
+                    <div class="flex flex-wrap -mt-10 justify-center text-center">
+                        <div class="w-full md:w-7/12">
+                            <h6 class="text-white text-lg font-semibold">Why Karjat?</h6>
+                            <h2 class="text-[#fcf3e4] text-3xl font-bold">Experience Serenity, Elegance, and Comfort
+                            </h2>
+                        </div>
+                    </div>
+
+                    <!-- Image and Text -->
+                    <div class="flex flex-wrap mt-10">
+                        <div class="w-full md:w-7/12">
+                            <img src="content/cottage2/images/embrace.webp" alt="Cottages" class="rounded-lg shadow-lg">
+                        </div>
+                        <div class="w-full md:w-5/12 md:pl-8 mt-8">
+                            <h6 class="text-white text-lg font-semibold">Live Celebrity Life</h6>
+                            <hr class="border-t border-transparent my-4">
+                            <p class="text-[#fcf3e4]">Experience the ultimate luxury and exclusivity, living a celebrity
+                                life surrounded by elegance and tranquility at Beverly Hills.</p>
+                            <ul class="mt-4 text-[#fcf3e4] list-disc list-inside">
+                                <li>Bespoke 2 & 3 Bed Residences</li>
+                                <li>State-of-the-Art Luxury</li>
+                                <li>Perfect Second Home Destination</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Divider -->
+                    <hr class="border-t border-transparent my-10">
+
+                    <!-- Second Image and Text Section -->
+                    <div class="flex flex-wrap">
+                        <div class="w-full md:w-7/12">
+                            <img src="content/cottage2/images/bhivpuri.webp" alt="Bhivpuri"
+                                class="rounded-lg shadow-lg">
+                        </div>
+                        <div class="w-full md:w-5/12 md:pl-8 mt-8">
+                            <h6 class="text-white text-lg font-semibold">Top 9 Places in Karjat</h6>
+                            <hr class="border-t border-transparent my-4">
+                            <div class="flex flex-wrap">
+                                <div class="w-1/2 text-[#fcf3e4]">
+                                    <p>Kothaligad</p>
+                                    <p>Bahiri Cave</p>
+                                    <p>Kondana Caves</p>
+                                    <p>Pali Bhutivali Dam</p>
+                                    <p>Bhivpuri Waterfall</p>
+                                </div>
+                                <div class="w-1/2 text-[#fcf3e4]">
+                                    <p>Bhor Ghat</p>
+                                    <p>Salt Restaurant</p>
+                                    <p>Ulhas Valley</p>
+                                    <p>ND Studio</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Divider -->
+                    <hr class="border-t border-transparent my-10">
+
+                    <!-- Value-Filled Promises Section -->
+                    <div class="flex flex-wrap">
+                        <div class="w-full md:w-5/12 md:pr-4 mt-8">
+                            <h6 class="text-white text-lg font-semibold">Value-Filled Promises</h6>
+                            <hr class="border-t border-transparent my-4">
+                            <p class="text-[#fcf3e4]">At Beverly Hills, we ensure your investment is secure,
+                                transparent, valuable, and honorable, addressing all common concerns of buying a
+                                farmhouse or plot.</p>
+                            <ul class="mt-4 text-[#fcf3e4] list-disc list-inside">
+                                <li>The Pledge of Security</li>
+                                <li>The Bond of Transparency</li>
+                                <li>The Symbol of Wealth</li>
+                                <li>The Hallmark of Honour</li>
+                            </ul>
+                        </div>
+                        <div class="w-full md:w-7/12 mt-8">
+                            <img src="content/cottage2/images/cottage2-cottages-pic2.webp" alt="Cottage"
+                                class="rounded-lg shadow-lg w-full object-cover" style="max-height: 400px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section bg-[#314d3e] pt-24 pb-24 bg-cover bg-no-repeat"
+                style="background-image: url('content/cottage2/images/cottage2-section-bg2.jpg');">
+                <div class="max-w-screen-xl mx-auto px-4">
+                    <div class="text-center">
+                        <h6 class="mb-5 text-white text-4xl font-bold"
+                            style="font-family: 'Alegreya', Helvetica, Arial, sans-serif;">BREAKING NEWS</h6>
+
+                        <!-- Large Screen News -->
+                        <div class="row large-screen__news">
+                            <div class="col-12">
+                                <div class="flex flex-wrap justify-center">
+                                    <div class="w-1/3 p-2">
+                                        <img src="content/cottage2/images/news1.webp"
+                                            class="w-full h-auto object-contain" alt="">
+                                    </div>
+                                    <div class="w-1/3 p-2">
+                                        <img src="content/cottage2/images/news2.webp"
+                                            class="w-full h-auto object-contain" alt="">
+                                    </div>
+                                    <div class="w-1/3 p-2">
+                                        <img src="content/cottage2/images/news3.webp"
+                                            class="w-full h-auto object-contain" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mt-4">
+                                <div class="flex flex-wrap justify-center">
+                                    <div class="w-1/3 p-2">
+                                        <img src="content/cottage2/images/news4.webp"
+                                            class="w-full h-auto object-contain" alt="">
+                                    </div>
+                                    <div class="w-1/3 p-2">
+                                        <img src="content/cottage2/images/news5.webp"
+                                            class="w-full h-auto object-contain" alt="">
+                                    </div>
+                                    <div class="w-1/3 p-2">
+                                        <img src="content/cottage2/images/news6.webp"
+                                            class="w-full h-auto object-contain" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Small Screen News -->
+                        <div class="row small-screen__news mt-4 hidden md:flex">
+                            <div class="col-12">
+                                <div class="flex flex-wrap justify-center">
+                                    <div class="w-1/2 p-2 mb-3">
+                                        <img src="content/cottage2/images/news1.webp"
+                                            class="w-full h-auto object-contain" alt="">
+                                    </div>
+                                    <div class="w-1/2 p-2 mb-3">
+                                        <img src="content/cottage2/images/news2.webp"
+                                            class="w-full h-auto object-contain" alt="">
+                                    </div>
+                                    <div class="w-1/2 p-2 mb-3">
+                                        <img src="content/cottage2/images/news3.webp"
+                                            class="w-full h-auto object-contain" alt="">
+                                    </div>
+                                    <div class="w-1/2 p-2 mb-3">
+                                        <img src="content/cottage2/images/news4.webp"
+                                            class="w-full h-auto object-contain" alt="">
+                                    </div>
+                                    <div class="w-1/2 p-2 mb-3">
+                                        <img src="content/cottage2/images/news5.webp"
+                                            class="w-full h-auto object-contain" alt="">
+                                    </div>
+                                    <div class="w-1/2 p-2 mb-3">
+                                        <img src="content/cottage2/images/news6.webp"
+                                            class="w-full h-auto object-contain" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Divider -->
+                        <div class="col-12">
+                            <hr class="border-t border-transparent my-10">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section bg-[#546e65] py-5">
+                <div class="max-w-screen-xl mx-auto px-4">
+                    <a href="content/cottage2/contact.html" class="no-underline">
+                        <div class="flex justify-between items-center text-center p-4">
+                            <div class="w-full md:w-8/12">
+                                <div class="flex justify-center items-center border border-[#fcf3e4] rounded-2xl p-2">
+                                    <h2 class="text-[#fcf3e4] text-2xl mb-0">CONTACT US</h2>
+                                    <img src="content/cottage2/images/next.png" alt="" class="ml-3 transform rotate-45">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="section bg-[#eedcc1] py-15">
+                <div class="max-w-screen-xl mx-auto px-4">
+                    <h2 class="text-center text-[#682f17] text-4xl mb-5">Highlights</h2>
+                    <div class="flex flex-wrap">
+                        <!-- Farm Management Services -->
+                        <div class="w-full md:w-1/3 p-2">
+                            <div class="image_frame image_item no_link scale-with-grid no_border">
+                                <div class="image_wrapper">
+                                    <img src="content/cottage2/images/farm.webp" alt="Farm Management"
+                                        class="max-h-[353px] w-full object-cover">
+                                </div>
+                            </div>
+                            <hr class="border-t border-transparent my-5">
+                            <h3 class="text-[#682f17] text-2xl mb-2">Farm Management Services</h3>
+                            <p>At Rudram Beverly Hills, we go beyond providing you with a luxurious living space - we
+                                offer a holistic experience that allows you to reconnect with nature and embrace a
+                                sustainable lifestyle. Our comprehensive Farm Management Services are designed to help
+                                you make the most of your farmhouse and the surrounding environment, whether you're a
+                                seasoned farmer or just starting to explore the joys of rural living.</p>
+                        </div>
+
+                        <!-- Water & Electricity Provision -->
+                        <div class="w-full md:w-1/3 p-2">
+                            <div class="flex flex-col-reverse md:flex-col">
+                                <div>
+                                    <hr class="border-t border-transparent my-2">
+                                    <h3 class="text-[#682f17] text-2xl mb-2">Water & Electricity Provision</h3>
+                                    <p>At Rudram Beverly Hills, we understand that modern living in a countryside
+                                        setting demands seamless access to essential utilities. Our commitment to
+                                        providing a comfortable and convenient lifestyle extends to ensuring a reliable
+                                        supply of water and electricity throughout the community.</p>
+                                </div>
+                                <div>
+                                    <div class="image_frame image_item no_link scale-with-grid no_border">
+                                        <div class="image_wrapper">
+                                            <img src="content/cottage2/images/waterelectricity.webp"
+                                                alt="Water and Electricity"
+                                                class="h-[90%] max-h-[500px] w-full object-cover">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Surroundings -->
+                        <div class="w-full md:w-1/3 p-2">
+                            <div class="image_frame image_item no_link scale-with-grid no_border">
+                                <div class="image_wrapper">
+                                    <img src="content/cottage2/images/surrounding1.webp" alt="Surroundings"
+                                        class="max-h-[353px] w-full object-cover">
+                                </div>
+                            </div>
+                            <hr class="border-t border-transparent my-2">
+                            <h3 class="text-[#682f17] text-2xl mb-2">Surroundings</h3>
+                            <p>Imagine waking up each morning to the awe-inspiring sight of the Bhimashankar Hills,
+                                their rugged peaks and lush greenery painting a stunning backdrop against the sky.
+                                Rudram Beverly Hills is more than a residential enclave; it's a canvas of natural wonder
+                                that changes its hues with the rising and setting sun, creating a living masterpiece
+                                that never fails to captivate.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section bg-[#fffdd04a] pt-15 pb-15"
+                style="background-image: url('content/cottage2/images/cottage2-section-bg3.png'); background-repeat: no-repeat; background-position: left center;">
+                <div class="max-w-screen-xl mx-auto px-4">
+                    <h6 class="text-[#a16026] text-3xl text-center mb-5 mt-3">AMENITIES</h6>
+                    <h3 class="text-center text-[#682f17] text-xl mb-5">At Beverly Hills Karjat, enjoy the
+                        state-of-the-art gym, private theatre, and cozy indoor cafe. Our world-class amenities ensure
+                        unparalleled comfort and convenience, elevating your lifestyle to new heights.</h3>
+                    <div class="flex flex-wrap">
+                        <!-- Leisure and Recreation -->
+                        <div class="w-full md:w-1/4 p-2">
+                            <div class="image_frame image_item no_link scale-with-grid no_border">
+                                <div class="image_wrapper">
+                                    <img src="content/cottage2/images/recreation.png" alt="Leisure and Recreation"
+                                        class="h-[70px] w-auto border border-dashed border-[#296043] p-2 rounded-full">
+                                </div>
+                            </div>
+                            <hr class="border-t border-transparent my-5">
+                            <h5 class="text-[#296043] text-lg">Leisure and Recreation</h5>
+                            <div class="col-12 p-0">
+                                <p class="text-[#296043]">The Pledge of Security</p>
+                                <p class="text-[#296043]">The Bond of Transparency</p>
+                                <p class="text-[#296043]">The Symbol of Wealth</p>
+                                <p class="text-[#296043]">The Hallmark of Honour</p>
+                            </div>
+                        </div>
+
+                        <!-- Health and Fitness -->
+                        <div class="w-full md:w-1/4 p-2">
+                            <div class="image_frame image_item no_link scale-with-grid no_border">
+                                <div class="image_wrapper">
+                                    <img src="content/cottage2/images/dumbbell.png" alt="Health and Fitness"
+                                        class="h-[70px] w-auto border border-dashed border-[#296043] p-2 rounded-full">
+                                </div>
+                            </div>
+                            <hr class="border-t border-transparent my-5">
+                            <h5 class="text-[#296043] text-lg">Health and Fitness</h5>
+                            <div class="col-12 p-0">
+                                <p class="text-[#296043]">Modern Gymnasium</p>
+                                <p class="text-[#296043]">Yoga and Aerobics Studio</p>
+                                <p class="text-[#296043]">Zumba Sessions</p>
+                                <p class="text-[#296043]">Cardio Section</p>
+                                <p class="text-[#296043]">Comprehensive Fitness Amenities</p>
+                            </div>
+                        </div>
+
+                        <!-- Convenience and Comfort -->
+                        <div class="w-full md:w-1/4 p-2">
+                            <div class="image_frame image_item no_link scale-with-grid no_border">
+                                <div class="image_wrapper">
+                                    <img src="content/cottage2/images/convenient.png" alt="Convenience and Comfort"
+                                        class="h-[70px] w-auto border border-dashed border-[#296043] p-2 rounded-full">
+                                </div>
+                            </div>
+                            <hr class="border-t border-transparent my-5">
+                            <h5 class="text-[#296043] text-lg">Convenience and Comfort</h5>
+                            <div class="col-12 p-0">
+                                <p class="text-[#296043]">Business Chamber</p>
+                                <p class="text-[#296043]">Private Dining Areas</p>
+                                <p class="text-[#296043]">Sports Club</p>
+                                <p class="text-[#296043]">Thoughtful Services for Comfort and Satisfaction</p>
+                            </div>
+                        </div>
+
+                        <!-- Social and Entertainment -->
+                        <div class="w-full md:w-1/4 p-2">
+                            <div class="image_frame image_item no_link scale-with-grid no_border">
+                                <div class="image_wrapper">
+                                    <img src="content/cottage2/images/smartphone.png" alt="Social and Entertainment"
+                                        class="h-[70px] w-auto border border-dashed border-[#296043] p-2 rounded-full">
+                                </div>
+                            </div>
+                            <hr class="border-t border-transparent my-5">
+                            <h5 class="text-[#296043] text-lg">Social and Entertainment</h5>
+                            <div class="col-12 p-0">
+                                <p class="text-[#296043]">Private Theatre</p>
+                                <p class="text-[#296043]">Celebration Hall</p>
+                                <p class="text-[#296043]">Brew and Blend Indoor Farmer’s Cafe</p>
+                                <p class="text-[#296043]">Corporate Lounges</p>
+                                <p class="text-[#296043]">Kids' Play Areas</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Divider -->
+                    <div class="col-12">
+                        <hr class="border-t border-transparent my-10">
+                    </div>
+                </div>
+            </div>
+
+            <div class="section bg-[#fffdd04a] pt-10 pb-10">
+                <div class="max-w-screen-xl mx-auto px-4">
+                    <div class="flex flex-wrap border-t border-b py-10">
+                        <!-- Total Number of Plots -->
+                        <div class="w-full text-center md:w-1/4 p-2">
+                            <div class="counter counter_horizontal">
+                                <div class="desc_wrapper">
+                                    <div class="number-wrapper">
+                                        <span class="number text-4xl font-bold" data-to="53">53</span>
+                                    </div>
+                                    <p class="title text-center">TOTAL NO. OF PLOTS</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Green Open Space -->
+                        <div class="w-full text-center md:w-1/4 p-2">
+                            <div class="counter counter_horizontal">
+                                <div class="desc_wrapper">
+                                    <div class="number-wrapper">
+                                        <span class="number text-4xl font-bold" data-to="55">55</span><span
+                                            class="text-2xl">%</span>
+                                    </div>
+                                    <p class="title text-center">GREEN OPEN SPACE</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Number of Trees -->
+                        <div class="w-full text-center md:w-1/4 p-2">
+                            <div class="counter counter_horizontal">
+                                <div class="desc_wrapper">
+                                    <div class="number-wrapper">
+                                        <span class="number text-4xl font-bold" data-to="500">500</span><span
+                                            class="text-2xl">+</span>
+                                    </div>
+                                    <p class="title text-center">NO. OF TREES</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Number of Amenities -->
+                        <div class="w-full text-center md:w-1/4 p-2">
+                            <div class="counter counter_horizontal">
+                                <div class="desc_wrapper">
+                                    <div class="number-wrapper">
+                                        <span class="number text-4xl font-bold" data-to="20">20</span><span
+                                            class="text-2xl">+</span>
+                                    </div>
+                                    <p class="title text-center">NO. OF AMENITIES</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section bg-[#fffdd04a] py-15">
+                <h6 class="text-[#a16026] text-center mb-3 text-2xl">LOCATION AND CONNECTIVITY</h6>
+                <div class="max-w-screen-xl mx-auto px-4">
+                    <div class="flex flex-wrap">
+                        <!-- Prime Location & Easy Connectivity -->
+                        <div class="w-full md:w-2/3 p-4 bg-[#546e65] max-h-[400px] flex flex-col justify-center">
+                            <h6 class="text-white text-lg">Prime Location & Easy Connectivity</h6>
+                            <h4 class="text-[#fcf3e4] text-xl">Located just 1.5 hours from South Mumbai and close to the
+                                upcoming Navi Mumbai International Airport, Beverly Hills Karjat offers easy access to
+                                all major destinations while being a perfect getaway from the city's hustle.</h4>
+                        </div>
+
+                        <!-- Google Maps Embed -->
+                        <div class="w-full md:w-1/3 p-4 bg-cover bg-center max-h-[400px]">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.80765322768!2d73.47298034786041!3d19.028195607647607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdd5900168e32ad%3A0x62f51d281bded0a4!2sRudram%20Beverly%20Hills%20Karjat!5e0!3m2!1sen!2sin!4v1721157977815!5m2!1sen!2sin"
+                                class="w-full h-full border-0" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="px-4">
+                <div class="md:flex 2xl:flex mb-5">
+                    <!-- 1.5 Hour Drive Card -->
+                    <div class="w-full md:w-1/3 p-2">
+                        <div
+                            class="custom-amenities__card shadow-lg p-5 rounded-md transition-transform transform hover:scale-105">
+                            <img class="w-10 h-auto mx-auto" src="content/cottage2/images/drive.png"
+                                alt="1.5 Hour Drive" width="98" height="98">
+                            <h3 class="text-2xl text-center mt-3">1.5 Hour Drive</h3>
+                            <p class="text-[#296043] leading-6 text-center tracking-wide">Enjoy a scenic 1.5-hour drive
+                                from South Mumbai to Karjat via the new Atal Setu. The Panvel-Karjat Corridor will soon
+                                cut travel time to just 60-75 minutes.</p>
+                        </div>
+                    </div>
+
+                    <!-- Air Travel Card -->
+                    <div class="w-full md:w-1/3 p-2">
+                        <div
+                            class="custom-amenities__card shadow-lg p-5 rounded-md transition-transform transform hover:scale-105">
+                            <img class="w-10 h-auto mx-auto" src="content/cottage2/images/airplane.png" alt="Air Travel"
+                                width="98" height="98">
+                            <h3 class="text-2xl text-center mt-3">Air Travel</h3>
+                            <p class="text-[#296043] leading-6 text-center tracking-wide">The new Navi Mumbai Airport
+                                will open the "Berkshires of Mumbai" to the world. A quick 1.5-hour drive from the
+                                airport brings you to this serene destination.</p>
+                        </div>
+                    </div>
+
+                    <!-- Train Connectivity Card -->
+                    <div class="w-full md:w-1/3 p-2">
+                        <div
+                            class="custom-amenities__card shadow-lg p-5 rounded-md transition-transform transform hover:scale-105">
+                            <img class="w-10 h-auto mx-auto" src="content/cottage2/images/train.png"
+                                alt="Train Connectivity" width="98" height="98">
+                            <h3 class="text-2xl text-center mt-3">Train Connectivity</h3>
+                            <p class="text-[#296043] leading-6 text-center tracking-wide">Karjat is seamlessly connected
+                                via the Central and Harbour Lines. Soon, air-conditioned trains will make reaching
+                                Karjat a hassle-free and comfortable journey.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section bg-[#546e65] py-5 mb-5">
+                <div class="max-w-screen-xl mx-auto px-4">
+                    <a href="#" id="requestBrochureLink" class="request-brochure-link no-underline">
+                        <div class="flex justify-between items-center text-center p-4">
+                            <div class="w-full md:w-8/12">
+                                <div class="flex justify-center items-center border border-[#fcf3e4] rounded-2xl p-2">
+                                    <h2 class="text-[#fcf3e4] text-2xl mb-0">REQUEST BROCHURE</h2>
+                                    <img src="content/cottage2/images/next.png" alt="" class="ml-3 transform rotate-45">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="container mb-5">
+                <div class="section-title wow animate__animated animate__fadeInUp" data-wow-delay="0.5s"
+                    data-wow-duration="1s">
+                    <h3 class="text-center text-2xl mb-3">Detailed Plot Layout and Amenities Overview</h3>
+                </div>
+                <div class="image-section wow animate__animated animate__fadeIn" data-wow-delay="0.5s"
+                    data-wow-duration="1.5s">
+                    <img src="content/cottage2/images/detaillayout.webp"
+                        alt="Detailed Plot Layout and Amenities Overview" class="w-full h-auto">
+                </div>
+            </div>
+
+        </div>
+
+
+        <footer id="Footer" class="bg-[#546e65]">
+            <div class="max-w-screen-xl mx-auto px-4 py-10">
+                <h4 class="text-[#dbba9d] text-center text-4xl mb-10">Connect With Us</h4>
+                <div class="flex flex-wrap items-center">
+                    <!-- Logo Section -->
+                    <div class="w-full md:w-1/3 mb-6 md:mb-0">
+                        <img src="content/cottage2/images/beverlyhillsold.png" alt=""
+                            class="h-[300px] w-auto object-contain mx-auto">
+                    </div>
+                    <!-- Contact Information Section -->
+                    <div class="w-full md:w-2/3">
+                        <div class="flex flex-col md:flex-row">
+                            <div class="w-full md:w-1/2 pr-2">
+                                <h5 class="text-[#fcf3e4]">
+                                    Wing A-1209,<br>
+                                    Kailas Business Park<br>
+                                    Hiranandani-Vikhroli<br>
+                                    Link Road Park-Site,<br>
+                                    Vikhroli(W), Mumbai-400079
+                                </h5>
+                            </div>
+                            <div class="w-full md:w-1/2 flex flex-col justify-center pl-2">
+                                <h5 class="flex items-center text-[#fcf3e4]">
+                                    <i class="icon-mail"></i>
+                                    <a href="mailto:service@rudramrealty.com"
+                                        class="text-[#fcf3e4] pl-2">service@rudramrealty.com</a>
+                                </h5>
+                                <h5 class="flex items-center text-[#fcf3e4] mt-2">
+                                    <i class="icon-phone rotate-icon"></i>
+                                    <a href="tel:+91 80800 67067" class="text-[#fcf3e4] pl-2">+91 80800 67067</a>
+                                </h5>
+                            </div>
+                            <div class="w-full mt-4">
+                                <h6 class="text-[#fcf3e4]">
+                                    The project registered under MAHA RERA BEARING NO:
+                                    <span class="text-[#dbba9d]">P52000076952</span> available at
+                                    <a href="https://maharera.mahaonline.gov.in/" class="text-[#fcf3e4]"
+                                        target="_blank">https://maharera.mahaonline.gov.in</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_copy bg-[#546e65]">
+                <div class="max-w-screen-xl mx-auto px-4 py-5">
+                    <div class="flex justify-between items-center">
+                        <a id="back_to_top" class="footer_button text-[#fcf3e4]" href="#"><i
+                                class="icon-up-open-big"></i></a>
+                        <div class="copyright text-[#fcf3e4]">
+                            &copy; 2024 - All Rights Reserved By Rudram Realty.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="hidden fixed inset-0 z-50 overflow-auto bg-black bg-opacity-50">
+            <div class="relative p-4 w-full max-w-md m-auto flex-col flex rounded-lg bg-white shadow-lg">
+                <button class="absolute top-4 right-4 text-gray-400 hover:text-gray-600">
+                    &times;
+                </button>
+                <div class="text-center">
+                    <h2 class="text-lg font-semibold text-gray-800">Request Brochure</h2>
+                </div>
+                <form class="mt-6">
+                    <div class="mb-4">
+                        <label for="first_name" class="block text-gray-600 text-sm">First Name</label>
+                        <input type="text" id="first_name"
+                            class="w-full px-3 py-2 border rounded focus:outline-none focus:ring focus:ring-green-200">
+                    </div>
+                    <div class="mb-4">
+                        <label for="last_name" class="block text-gray-600 text-sm">Last Name</label>
+                        <input type="text" id="last_name"
+                            class="w-full px-3 py-2 border rounded focus:outline-none focus:ring focus:ring-green-200">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-600 text-sm">Email</label>
+                        <input type="email" id="email"
+                            class="w-full px-3 py-2 border rounded focus:outline-none focus:ring focus:ring-green-200">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-gray-600 text-sm">Message</label>
+                        <textarea id="message"
+                            class="w-full px-3 py-2 border rounded focus:outline-none focus:ring focus:ring-green-200"></textarea>
+                    </div>
+                    <button type="submit"
+                        class="w-full bg-green-500 hover:bg-green-600 text-white py-2 rounded">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+<script>
+    // Get the modal element
+    const modal = document.getElementById('requestModal');
+    const closeModal = document.getElementById('closeModal');
+
+    // Function to open the modal
+    function openModal() {
+        modal.classList.remove('hidden'); // Remove the hidden class to show the modal
+    }
+
+    // Function to close the modal
+    function hideModal() {
+        modal.classList.add('hidden'); // Add the hidden class to hide the modal
+    }
+
+    // Event listener to close the modal when the close button is clicked
+    closeModal.addEventListener('click', hideModal);
+
+    // Optional: close the modal when clicking outside of it
+    window.addEventListener('click', function (event) {
+        if (event.target === modal) {
+            hideModal();
+        }
+    });
+
+    // Example: Call this function to open the modal (e.g., from a button click)
+    // openModal(); // Uncomment this line to test opening the modal
+</script>
